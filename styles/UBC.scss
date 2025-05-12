@@ -1,0 +1,173 @@
+// ~~~
+// UBC Presentation Theme
+// ~~~
+
+/*-- scss:rules --*/
+
+// Fonts
+$font-family-sans-serif: "Open Sans", "Helvetica Neue", sans-serif !default;
+$font-family-serif: "Merriweather", "Georgia", serif !default;
+$heading-font: $font-family-serif !default;
+
+// Colors
+$white: #fff !default;
+$ubc-blue: #002145 !default;
+$ubc-secondary: #0055b7 !default;
+$ubc-tertiary: #40b4e5 !default;
+$transparent:  rgb(0 0 0 / 0%);
+
+// Presentation-wide changes
+.reveal {
+  font-family: $font-family-sans-serif;
+  background-color: $white;
+  color: $ubc-blue;
+  font-kerning: normal;
+  line-height: 140%;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-family: $font-family-serif;
+  color: $ubc-blue;
+}
+.reveal a {
+  color: $ubc-secondary;
+}
+.reveal .break{
+  height: 4px;
+  width: 50vw;
+  color: $ubc-tertiary;
+  background-color:$ubc-tertiary
+}
+.reveal .slides {
+ width: 960px !important;
+ height: 700px !important;
+}
+
+
+// Title Slide
+.reveal .intro-slide {
+  background-image: url("C:/Users/zaneb/Documents/Vault/Templates/images/title-slide.jpg");
+  background-color: $ubc-blue;
+  background-size: cover;
+  background-position-y: center;
+  position: relative;
+ .main-title, .authors, .upper, .lower {
+    background-color: $white;
+    background-image: none;
+    color: $ubc-blue;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 40vw;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0;
+  }
+  .banner {
+    position: absolute;
+    background-color: $white;
+    background-image: none;
+    top: -5vh;
+    left: 0vw;
+    height: 100vh;
+    width: 50vw;
+    color: $white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .main-title {
+    font-size: 42px;
+    top: 30vh;
+    left: 5vw;
+    font-family: $font-family-serif;
+  }
+  .authors {
+    font-size: 24px;
+    top: 37vh;
+    left: 5vw;
+    margin-top: 4px;
+  }
+  .upper {
+    font-size: 18px;
+    top: 12vh;
+    left: 5vw;
+    width: 30vw;
+  }
+  .lower {
+    font-size: 18px;
+    top: 54vh;
+    left: 5vw;
+    font-weight: normal;
+  }
+}
+.reveal section.intro-slide h1{
+  display: none;
+}
+
+//Paragraph Content Slide
+.reveal .paragraph-content{
+  background-image: none;
+  background-color: $white;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  b {
+    font-size: 28px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+  }
+}
+
+//Roadmap Slide
+.reveal .roadmap {
+  background-image: none;
+  background-color: $white;
+  h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  b {
+    font-size: 28px;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+  }
+  ol {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+    text-indent: 10px;
+  }
+}
+
+//Thanks slide
+.reveal .thanks {
+  background-image: none;
+  background-color: $white;
+  h1 {
+    display: block;
+    font-size: 42px !important;
+    font-weight: bold;
+    color: $ubc-blue;
+  }
+  p {
+    font-size: 24px;
+    font-weight: normal;
+    color: $ubc-blue;
+  }
+}
