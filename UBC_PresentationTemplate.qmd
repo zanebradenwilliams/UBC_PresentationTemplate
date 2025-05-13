@@ -7,7 +7,7 @@ format:
     slide-number: true
     width: 960
     height: 700
-    margin: 0.04
+    margin: 0.1
     min-scale: 0.2
     max-scale: 2.0
     pdfMaxPagesPerSlide: 1
@@ -68,6 +68,12 @@ This is an example of a `.roadmap` class slide. Sections can be separated with `
   <li>Slide 1</li>
   <li>Slide 2</li>
 </ol>
+
+# Subsection 1 {.subsection1}
+
+<div class="subsection-title">
+Subsection 1
+</div>
 
 # Thank you! {.thanks}
 

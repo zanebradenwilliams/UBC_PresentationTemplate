@@ -48,7 +48,7 @@ $transparent:  rgb(0 0 0 / 0%);
 
 // Title Slide
 .reveal .intro-slide {
-  background-image: url("C:/Users/zaneb/Documents/Vault/Templates/images/title-slide.jpg");
+  background-image: url("images/title-slide.jpg");
   background-color: $ubc-blue;
   background-size: cover;
   background-position-y: center;
@@ -77,6 +77,7 @@ $transparent:  rgb(0 0 0 / 0%);
     color: $white;
     margin-top: 0;
     margin-bottom: 0;
+    box-shadow: 0 0 23px 4px $ubc-blue;
   }
   .main-title {
     font-size: 42px;
@@ -153,6 +154,37 @@ $transparent:  rgb(0 0 0 / 0%);
     color: $ubc-blue;
     text-indent: 10px;
   }
+}
+
+//Subsection slide: COPY SLIDE FOR DIFFERENT IMAGES
+.reveal .subsection1 {
+  background-image: url("images/subsection1.jpg");
+  background-color: $ubc-blue;
+  background-size: cover;
+  background-position-y: center;
+}
+.reveal section.subsection1 h1{
+  display: none;
+}
+
+//Subsection title: NO NEED TO COPY
+.subsection-title {
+  background-color: $white;
+  background-image: none;
+  color: $ubc-blue;
+  font-weight: bold;
+  text-align: center;
+  font-family: $font-family-serif;
+  font-size: 42px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 0 23px 4px $ubc-blue;
+
 }
 
 //Thanks slide
