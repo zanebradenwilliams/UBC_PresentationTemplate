@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "UBC_PresentationTemplate.html#template-overview",
+    "href": "UBC_PresentationTemplate.html#template-overview",
+    "title": "Week 1",
+    "section": "Template Overview",
+    "text": "Template Overview\nTemplate Purpose\nThe goal of this document is to provide a helpful, easily editable template for UBC students, staff, and faculty. Several presentation slide classes are available.\nThis is an example of a .paragraph-content class slide. Code can be visually represented using backticks: ``.\nHow to Edit\nThis template is a Quarto presentation. It should be edited through RStudio.\nI would strongly recommend using editor: source rather than editor: visual. Managing classes becomes very clunky in RStudio’s visual editor."
+  },
+  {
+    "objectID": "UBC_PresentationTemplate.html#roadmap",
+    "href": "UBC_PresentationTemplate.html#roadmap",
+    "title": "Week 1",
+    "section": "Roadmap",
+    "text": "Roadmap\nThis is an example of a .roadmap class slide. Sections can be separated with class = \"break\".\nObjective 1\n\n\nSlide 1\n\n\nSlide 2\n\n\n\n\n\nObjective 2\n\n\nSlide 1\n\n\nSlide 2"
+  }
+]
