@@ -19,9 +19,13 @@ editor: source
 
 <div class = "banner"><br></div>
 
+<div class = "intro-flex">
+
 <div class = "upper">
 <img src="images/UBC-logo.png" alt="UBC Official Logo">
 </div>
+
+<div class = "title-authors-flex">
 
 <div class = "main-title">
 UBC Presentation Template
@@ -31,8 +35,12 @@ UBC Presentation Template
 Zane Williams
 </div>
 
+</div>
+
 <div class = "lower">
-Date Here | Press "F" for Fullscreen (intended layout)
+Date | Location
+</div>
+
 </div>
 
 ## Template Overview {.paragraph-content}

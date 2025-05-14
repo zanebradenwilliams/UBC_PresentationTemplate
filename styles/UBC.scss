@@ -52,16 +52,11 @@ $transparent:  rgb(0 0 0 / 0%);
   background-color: $ubc-blue;
   background-size: cover;
   background-position-y: center;
-  position: relative;
  .main-title, .authors, .upper, .lower {
     background-color: $white;
     background-image: none;
     color: $ubc-blue;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: absolute;
     width: 40vw;
-    padding: 0;
     font-weight: bold;
     text-align: left;
     margin-left: 0;
@@ -70,37 +65,53 @@ $transparent:  rgb(0 0 0 / 0%);
     position: absolute;
     background-color: $white;
     background-image: none;
-    top: -5vh;
-    left: 0vw;
-    height: 100vh;
+    top: -50px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50vw;
     color: $white;
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0 0 23px 4px $ubc-blue;
+    z-index: 1;
+  }
+  .intro-flex{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-direction: column; 
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 40px;
+    top: -50px;
+    height: 800px;
+    padding: 0px;
+    z-index: 2;
   }
   .main-title {
     font-size: 42px;
-    top: 30vh;
-    left: 5vw;
     font-family: $font-family-serif;
+  }
+  .title-authors-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .authors {
     font-size: 24px;
-    top: 37vh;
-    left: 5vw;
-    margin-top: 4px;
   }
   .upper {
     font-size: 18px;
-    top: 12vh;
-    left: 5vw;
-    width: 30vw;
+  }
+  .upper img {
+    height: 60px;
+    width: auto;
   }
   .lower {
     font-size: 18px;
-    top: 54vh;
-    left: 5vw;
     font-weight: normal;
   }
 }
