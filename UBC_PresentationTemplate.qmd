@@ -45,13 +45,13 @@ Date | Location
 
 ## Template Overview {.mst}
 
-<b>Template Purpose</b>
+**Template Purpose**
 
 The goal of this document is to provide a helpful, easily editable template for UBC students, staff, and faculty. Several presentation slide classes are available.
 
 This is an example of a `.mst` (Main Slide Type) class slide. Code can be visually represented using backticks: ``.
 
-<b>How to Edit</b>
+**How to Edit**
 
 This template is a Quarto presentation. It should be edited through RStudio.
 
