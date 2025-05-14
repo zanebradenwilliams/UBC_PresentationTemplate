@@ -119,8 +119,8 @@ $transparent:  rgb(0 0 0 / 0%);
   display: none;
 }
 
-//Paragraph Content Slide
-.reveal .paragraph-content{
+//Main Slide Type
+.reveal .mst {
   background-image: none;
   background-color: $white;
   h2 {
@@ -128,7 +128,7 @@ $transparent:  rgb(0 0 0 / 0%);
     font-weight: bold;
     color: $ubc-blue;
   }
-  b {
+  strong {
     font-size: 28px;
     font-weight: bold;
     color: $ubc-blue;
@@ -138,28 +138,7 @@ $transparent:  rgb(0 0 0 / 0%);
     font-weight: normal;
     color: $ubc-blue;
   }
-}
-
-//Roadmap Slide
-.reveal .roadmap {
-  background-image: none;
-  background-color: $white;
-  h2 {
-    font-size: 42px;
-    font-weight: bold;
-    color: $ubc-blue;
-  }
-  b {
-    font-size: 28px;
-    font-weight: bold;
-    color: $ubc-blue;
-  }
-  p {
-    font-size: 24px;
-    font-weight: normal;
-    color: $ubc-blue;
-  }
-  ol {
+  ul, ol, li {
     font-size: 24px;
     font-weight: normal;
     color: $ubc-blue;
@@ -199,7 +178,7 @@ $transparent:  rgb(0 0 0 / 0%);
 }
 
 //Thanks slide
-.reveal .thanks {
+.reveal .cst {
   background-image: none;
   background-color: $white;
   h1 {

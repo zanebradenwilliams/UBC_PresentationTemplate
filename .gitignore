@@ -6,3 +6,4 @@ site_libs/
 .Rproj.user/
 .Rhistory
 *.Rproj
+/.quarto/

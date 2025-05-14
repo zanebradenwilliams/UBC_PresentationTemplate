@@ -43,13 +43,13 @@ Date | Location
 
 </div>
 
-## Template Overview {.paragraph-content}
+## Template Overview {.mst}
 
 <b>Template Purpose</b>
 
 The goal of this document is to provide a helpful, easily editable template for UBC students, staff, and faculty. Several presentation slide classes are available.
 
-This is an example of a `.paragraph-content` class slide. Code can be visually represented using backticks: ``.
+This is an example of a `.mst` (Main Slide Type) class slide. Code can be visually represented using backticks: ``.
 
 <b>How to Edit</b>
 
@@ -57,25 +57,27 @@ This template is a Quarto presentation. It should be edited through RStudio.
 
 I would strongly recommend using `editor: source` rather than `editor: visual`. Managing classes becomes very clunky in RStudio's visual editor.
 
-## Roadmap {.roadmap}
+## Roadmap {.mst}
 
-This is an example of a `.roadmap` class slide. Sections can be separated with `class = "break"`.
+This is another example of a `.mst` class slide. Since the `.qmd` document is all Markdown (with some HTML to help with style!), slides can be edited quickly.
 
-<b>Objective 1</b>
+Lists can be made with `- Element` or `1. Element`. 
 
-<ol>
-  <li>Slide 1</li>
-  <li>Slide 2</li>
-</ol>
+Subheading font can be designated with `**Subheader**`. 
+
+To make the blue section dividers, use `<div class = "break"><br></div>`.
+
+**Ordered List**
+
+1. Element 1
+2. Element 2
 
 <div class = "break"><br></div>
 
-<b>Objective 2</b>
+**Unordered List**
 
-<ol>
-  <li>Slide 1</li>
-  <li>Slide 2</li>
-</ol>
+- Element 1
+- Element 2
 
 # Subsection 1 {.subsection1}
 
@@ -83,9 +85,9 @@ This is an example of a `.roadmap` class slide. Sections can be separated with `
 Subsection 1
 </div>
 
-# Thank you! {.thanks}
+# Thank you! {.cst}
 
-This is an example of a `.thanks` class slide.
+This is an example of a `.cst` (Centered Slide Type) class slide.
 
 <div class = "break"><br></div>
 
