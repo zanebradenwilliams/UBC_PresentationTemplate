@@ -1,0 +1,92 @@
+---
+format: 
+  revealjs:
+    include-in-header: styles/fonts.html
+    theme: [default, styles/UBC.scss]
+    self-contained: true
+    slide-number: true
+    width: 960
+    height: 700
+    margin: 0.1
+    min-scale: 0.2
+    max-scale: 2.0
+    pdfMaxPagesPerSlide: 1
+    position: absolute
+editor: source
+---
+
+# Title Slide {.intro-slide}
+
+<div class = "banner"><br></div>
+
+<div class = "intro-flex">
+
+<div class = "upper">
+<img src="images/UBC-logo.png" alt="UBC Official Logo">
+</div>
+
+<div class = "title-authors-flex">
+
+<div class = "main-title">
+UBC Presentation Template
+</div>
+
+<div class = "authors">
+Zane Williams
+</div>
+
+</div>
+
+<div class = "lower">
+Date | Location
+</div>
+
+</div>
+
+## Template Overview {.paragraph-content}
+
+<b>Template Purpose</b>
+
+The goal of this document is to provide a helpful, easily editable template for UBC students, staff, and faculty. Several presentation slide classes are available.
+
+This is an example of a `.paragraph-content` class slide. Code can be visually represented using backticks: ``.
+
+<b>How to Edit</b>
+
+This template is a Quarto presentation. It should be edited through RStudio.
+
+I would strongly recommend using `editor: source` rather than `editor: visual`. Managing classes becomes very clunky in RStudio's visual editor.
+
+## Roadmap {.roadmap}
+
+This is an example of a `.roadmap` class slide. Sections can be separated with `class = "break"`.
+
+<b>Objective 1</b>
+
+<ol>
+  <li>Slide 1</li>
+  <li>Slide 2</li>
+</ol>
+
+<div class = "break"><br></div>
+
+<b>Objective 2</b>
+
+<ol>
+  <li>Slide 1</li>
+  <li>Slide 2</li>
+</ol>
+
+# Subsection 1 {.subsection1}
+
+<div class="subsection-title">
+Subsection 1
+</div>
+
+# Thank you! {.thanks}
+
+This is an example of a `.thanks` class slide.
+
+<div class = "break"><br></div>
+
+I appreciate your interest in this template.
