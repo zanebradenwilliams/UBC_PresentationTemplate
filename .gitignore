@@ -9,3 +9,4 @@ site_libs/
 /.quarto/
 .html
 .pdf
+.json
